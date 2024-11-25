@@ -1,4 +1,5 @@
 # BearSampler
+![BearIcon](bearicon.png)
 
 A modern sampler/synthesizer application for Raspberry Pi with Pirate Audio HAT.
 
