@@ -71,3 +71,4 @@ Pull requests welcome! Please read CONTRIBUTING.md for guidelines.
 ## Credits
 
 Based on the original [SamplerBox](https://github.com/hansehv/SamplerBox) by Joseph Ernest and Hans Hommersom.
+# bearsamplr
