@@ -1,0 +1,34 @@
+#+title: Todo
+
+* TODO Display and UI [0/4]
+  - [ ] Implement PyQt/PySide interface for 240x240 display
+  - [ ] Add real-time audio waveform visualization
+  - [ ] Create EQ/spectrum analyzer display
+  - [ ] Refactor hardware button handling with Qt signals
+
+* TODO Audio Processing [0/5]
+  - [ ] Add DSP effects pipeline (reverb, delay, EQ)
+  - [ ] Implement interpolated sample playback
+  - [ ] Add polyphony limiting and voice stealing
+  - [ ] Create ADSR envelope system
+  - [ ] Move audio processing to separate thread
+
+* TODO Architecture [0/5]
+  - [ ] Implement MVC pattern
+  - [ ] Add async file operations
+  - [ ] Add type hints and docstrings
+  - [ ] Create unit test suite
+  - [ ] Set up proper Python package structure
+
+* TODO Features [0/5]
+  - [ ] Add basic sample editing
+  - [ ] Implement MIDI learn
+  - [ ] Create preset management system
+  - [ ] Add support for more audio formats
+  - [ ] Optimize memory usage for large sample sets
+
+* TODO Documentation [0/4]
+  - [ ] Write API documentation
+  - [ ] Create user manual
+  - [ ] Add developer guide
+  - [ ] Document audio engine architecture
