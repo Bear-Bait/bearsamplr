@@ -2,11 +2,6 @@
 .venv/
 venv/
 
-# Python cache files
-__pycache__/
-*.py[cod]
-*.class
-
 # Distribution / packaging
 dist/
 build/
