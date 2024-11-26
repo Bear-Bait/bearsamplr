@@ -1,0 +1,9 @@
+# BearSamplr dependencies
+pygame
+st7789
+RPi.GPIO
+Pillow  # This is the package name for PIL
+sounddevice
+numpy
+python-rtmidi  # This is the package name for rtmidi
+
