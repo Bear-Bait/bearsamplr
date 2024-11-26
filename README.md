@@ -1,6 +1,15 @@
 # BearSamplr
 
-A modern Raspberry Pi sampler using Pirate Audio Line Out.
+A modern sampler/synthesizer application for Raspberry Pi with Pirate Audio HAT, inspired by SamplerBox.
+
+## Overview
+
+BearSamplr is optimized for the Raspberry Pi 3B+ with Pirate Audio line-out HAT. Key improvements include:
+- Modern display interface with 240x240 ST7789
+- Real-time DSP effects (planned)
+- Improved sample playback engine
+- Better memory management
+- Hardware-accelerated visualizations
 
 ## Hardware Requirements
 
@@ -29,7 +38,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Features
+## Current Features
 
 - High-quality audio via PCM5102A DAC
 - 240x240 ST7789 display interface
@@ -38,11 +47,32 @@ pip install -r requirements.txt
 - Customizable sample management
 - Button control interface
 
+## Planned Improvements
+
+### Display/UI
+- Audio waveform visualization
+- Real-time EQ display
+- Clean hardware button integration
+
+### Audio Engine
+- DSP effects pipeline using numpy/scipy
+- Interpolated sample playback
+- Voice allocation with polyphony limiting
+- ADSR envelope implementation
+- Multi-threaded audio processing
+
+### Architecture
+- MVC pattern implementation
+- Async file operations
+- Type hints and docstrings
+- Unit test coverage
+- Python packaging improvements
+
 ## Dependencies
 
 - Python 3.11.2
 - Debian GNU/Linux 12 (bookworm)
-- See requirements.txt for Python package dependencies:
+- Core packages:
   - pygame
   - st7789
   - RPi.GPIO
@@ -62,10 +92,14 @@ bearsamplr/
 └── requirements.txt  # Project dependencies
 ```
 
+## Development Status
+
+Active development - Building core functionality for audio processing and display interface.
+
 ## License
 
 [MIT License](LICENSE)
 
-## Development Status
+## Credits
 
-Active development - Building core functionality for audio processing and display interface.
+Based on concepts from the original [SamplerBox](https://github.com/hansehv/SamplerBox) by Joseph Ernest and Hans Hommersom.
