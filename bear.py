@@ -233,7 +233,7 @@ class DisplayManager:
             self.font_medium = ImageFont.load_default()
             self.font_small = ImageFont.load_default()
 
- class AudioEngine:
+class AudioEngine:
     def __init__(self, config):
         self.sample_rate = config['AUDIO']['SAMPLE_RATE']
         self.channels = config['AUDIO']['CHANNELS']
